@@ -1,0 +1,35 @@
+﻿<local:MyCard Title="安装Java17">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap"
+                   Text="如果你没安装Java17，您可以点击安装Java来安装。" />
+        <local:MyButton Margin="0,8,0,8" Width="200" Height="35"
+                   Text="安装Java" EventType="打开文件" EventData="jdk17.exe" />
+    </StackPanel>
+</local:MyCard>
+
+<local:MyCard Title="打开网站">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock Margin="0,0,0,4"
+                   Text="如果你要访问我们的官网，请点击" />
+        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+        Text="打开官网" EventType="打开网页" EventData="https://www.monday-ovo.eu.org" />
+        <TextBlock Margin="0,0,0,4"
+                   Text="如果你要访问我们的论坛，请点击" />
+        <local:MyButton Width="140" Height="35" HorizontalAlignment="Left" Padding="13,0,13,0"
+                   Text="打开论坛" EventType="打开网页" EventData="https://bbs.monday-ovo.eu.org" />
+    </StackPanel>
+</local:MyCard>
+    
+<local:MyCard Title="一键启动游戏">
+    <StackPanel Margin="25,40,23,15">
+        <TextBlock TextWrapping="Wrap"
+                 Text="电脑高性能的可选此项" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                 Text="启动Monday模组客户端" EventType="启动游戏" EventData="Monday模组客户端" />
+        <TextBlock TextWrapping="Wrap"
+                 Text="如果你用不惯模组或看不惯光影可以使用原版。" />
+        <local:MyButton Margin="0,8,0,10" Width="250" Height="35"
+                 Text="启动Monday原版客户端" EventType="启动游戏" EventData="Monday原版客户端" />
+    </StackPanel>
+</local:MyCard>
+    
