@@ -1,2 +1,2 @@
 # Monday
-Monday-Minecraft
+Monday-Minecraft Launcher
