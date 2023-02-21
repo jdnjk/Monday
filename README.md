@@ -1,3 +1,3 @@
 # Monday
 Monday-Minecraft Launcher  
-Beta测试
+Beta分支
